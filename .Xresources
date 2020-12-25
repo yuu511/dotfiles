@@ -1,0 +1,58 @@
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #f0e9dc
+*.color0:       #6B2F2F
+*.color8:       #5d5d5d
+*.color1:       #966575
+*.color9:       #cf8ba2
+*.color2:       #ffffff
+*.color10:      #90d6a6
+*.color3:       #657596
+*.color11:      #e0bf80
+*.color4:       #968665
+*.color12:      #5f7ab1
+*.color5:       #756596
+*.color13:      #807793
+*.color6:       #658e96
+*.color14:      #1fb6d3
+*.color7:       #d0d0d0
+*.color15:      #f6f6f6
+
+! #000000
+! #3e3e3e 
+! #e6eeff
+! #DDC283
+! foreground txt color #f0e9dc
+! old grey : 5d5d5d
+! color 0 : first box color #6B2F2F red
+! color 4 : second box color blue #657596
+! #090E24 : ayanami blue 
+! color 2:  highlight box color + (git status = up to date) green #659675 
+! color 3: (git status= pending) yellow  #968665
+
+! URVXT STUFF 
+URxvt.font: xft:Monaco:pixelsize=13.5
+URxvt*scrollBar: false
+! URxvt*font: *-fixed-*-*-*-18-*
+!URxvt.font: xft:Noto Mono for Powerline:pixelsize=12
+
+! TRANSPARENCY 
+
+urxvt*transparent: false
+urxvt*shading: 40
+
+! TABS
+
+!   Key  	Description
+!   Shift+Down	New tab
+!   Shift+Left	Go to left tab
+!   Shift+Right	Go to right tab
+!   Ctrl+Left	Move tab to the left
+!   Ctrl+Right	Move tab to the right
+!   Ctrl+d	Close tab
+
+! URxvt.perl-ext-common: config-reload
+! no keycap picture insert mode
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+urxvt.perl-ext-common: default,resize-font
