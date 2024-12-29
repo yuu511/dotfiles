@@ -17,6 +17,9 @@ au BufNewFile,BufRead *.oc set filetype=cpp
 map <S-y> "+y<CR>
 map <S-p> "+p<CR>
 
+"system clipboard by default fk it
+set clipboard=unnamedplus
+
 " colorscheme
 colorscheme elflord
 
