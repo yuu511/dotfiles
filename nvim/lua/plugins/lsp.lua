@@ -18,14 +18,6 @@ return {
       }
   
     else
-      -- clangd config
-      require'lspconfig'.clangd.setup{
-        -- cmd = { 'clangd', "--background-index", "--clang-tidy"},
-        handlers = {
-        ["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
-          disable = { "cpp copyright" }
-        })}
-      }
     end
 
     vim.api.nvim_create_autocmd('LspAttach', {
