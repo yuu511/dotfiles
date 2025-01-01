@@ -10,3 +10,5 @@ git clone https://github.com/jremmen/vim-ripgrep.git
 git clone https://github.com/tpope/vim-vinegar.git
 git clone https://github.com/christoomey/vim-tmux-navigator.git
 cp .tmux.conf ~/
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

@@ -31,7 +31,7 @@
 ! color 3: (git status= pending) yellow  #968665
 
 ! URVXT STUFF 
-URxvt.font: xft:Monaco:pixelsize=13.5
+URxvt.font: xft:0xProtoNerdFont:pixelsize=13.5
 URxvt*scrollBar: false
 ! URxvt*font: *-fixed-*-*-*-18-*
 !URxvt.font: xft:Noto Mono for Powerline:pixelsize=12
